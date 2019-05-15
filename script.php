@@ -5,7 +5,7 @@ use \WebPConvertCloudService\WebPConvertCloudService;
 $options = [
     // Set dir for storing converted images temporarily
     // (make sure to create that dir, with permissions for web server to write)
-    'destination-dir' => '/conversions',
+    'destination-dir' => 'conversions',
 
     // Set acccess restrictions
     'access' => [
