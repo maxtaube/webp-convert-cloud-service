@@ -1,10 +1,6 @@
 {
     "require": {
         "rosell-dk/webp-convert-cloud-service": "^1.0"
-    },
-    
-    
-    "require": {
         "ext-gd": "*"
     }
 
