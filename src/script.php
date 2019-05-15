@@ -1,4 +1,4 @@
-require '../vendor/autoload.php';
+<?php require 'vendor/autoload.php';
 
 use \WebPConvertCloudService\WebPConvertCloudService;
 
@@ -12,7 +12,7 @@ $options = [
         'whitelist' => [
             [
                 'ip' => '*',
-                'api-key' => 'abcdefghijklmnop',
+                'api-key' => 'my dog is white',
                 'require-api-key-to-be-crypted-in-transfer' => false
             ]
         ]
@@ -33,3 +33,4 @@ $options = [
 
 $wpc = new WebPConvertCloudService();
 $wpc->handleRequest($options);
+?>
