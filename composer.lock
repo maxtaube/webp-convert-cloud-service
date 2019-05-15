@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "deaf2f4a9a42ff5f539a249aaec3a633",
+    "content-hash": "deecb7428490a6f7a1d500c04241f321",
     "packages": [
         {
             "name": "rosell-dk/webp-convert",
@@ -143,6 +143,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-gd": "*"
+    },
     "platform-dev": []
 }
