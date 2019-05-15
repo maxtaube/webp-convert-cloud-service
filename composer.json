@@ -1,7 +1,8 @@
 {
     "require": {
         "rosell-dk/webp-convert-cloud-service": "^1.0",
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "ext-imagick": "*"
     }
 
 }
