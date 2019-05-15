@@ -1,24 +1,3 @@
-require 'vendor/autoload.php';
-
-use \WebPConvertCloudService\WebPConvertCloudService;
-
-$options = [
-    // Set dir for storing converted images temporarily
-    // (make sure to create that dir, with permissions for web server to write)
-    'destination-dir' => '../conversions',
-
-    // Set acccess restrictions
-    'access' => [
-        'whitelist' => [
-            [
-                'ip' => '*',
-                'api-key' => 'abcdefghijklmnop',
-                'require-api-key-to-be-crypted-in-transfer' => false
-            ]
-        ]
-    ],
-
-    // Optionally set webp-convert options
     'webp-convert' => [
         'converters' => ['cwebp', 'gd', 'imagick'],
         'converter-options' => [
@@ -32,4 +11,3 @@ $options = [
 ];
 
 $wpc = new WebPConvertCloudService();
-$wpc->handleRequest($options);
