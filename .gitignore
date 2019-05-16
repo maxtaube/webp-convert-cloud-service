@@ -3,3 +3,4 @@ composer.phar
 config.yaml
 /vendor
 /conversions
+/vendor/
