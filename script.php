@@ -13,7 +13,7 @@ $options = [
             [
                 'ip' => '*',
                 'api-key' => 'my dog is white',
-                'require-api-key-to-be-crypted-in-transfer' => false
+                'require-api-key-to-be-crypted-in-transfer' => true
             ]
         ]
     ],
